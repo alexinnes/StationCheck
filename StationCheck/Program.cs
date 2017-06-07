@@ -18,8 +18,6 @@ namespace StationCheck
             Console.WriteLine("Processor Info:\t\t"+Computer.GetProcessorInfo());
             Console.WriteLine("Memory Info:\t\t{0} GB", Convert.ToString(roundMemory));
             Console.WriteLine("OS Info:\t\t"+Computer.GetOSInfo());
-            
-            Console.WriteLine(Computer.someNumber);
-    }
+        }
     }
 }

@@ -9,11 +9,10 @@ namespace StationCheck
 {
     public class Specs
     {
-        //Creates the list
+       
 
         public Specs()
         {
-            this.SomeNumber = 1;
         }
 
         public string GetDrivesInfo()
@@ -52,7 +51,6 @@ namespace StationCheck
             }
             return "Something went wrong";
         }
-
         
         public object GetProcessorInfo()
         {
@@ -80,16 +78,6 @@ namespace StationCheck
             }
             return "Something went wrong";
         }
-
-        private int SomeNumber;
-
-        public int someNumber
-        {
-            get { return SomeNumber; }
-            set { SomeNumber = value; }
-        }
-
-
-
+                
     }
 }
